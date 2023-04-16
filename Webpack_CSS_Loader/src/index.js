@@ -1,8 +1,14 @@
-import './index.css'
 import _ from "lodash"; 
+import style from  './index.css'
+import "./clearButton"
+
+console.log(style); 
+
+const btn1 = document.getElementById("button1")
 
 //once webpack function is immediately invoked a click event listener will be added to the element 
-document.getElementById("button1").addEventListener("click", function(){
+//document.getElementById("button1").addEventListener("click", function(){
+btn1.addEventListener("click", function(){
     const el = document.getElementById("header");
     el.innerHTML = "hey I have updated the code"
 
@@ -14,3 +20,5 @@ document.getElementById("button1").addEventListener("click", function(){
         ul.appendChild(tempEl)
     })
 }) 
+
+btn1.classList.add([style.button])

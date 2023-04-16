@@ -23,8 +23,12 @@ gh repo delete portfolio-app
 <script src="../dist/bundle.js"></script>
 </html>
 
-## install CSS loaders 
+## install CSS loaders `https://webpack.js.org/loaders/` 
     npm i --save-dev css-loader style-loader
     see Webpack_CSS_Loader\webpack.config.js 
 
 ## open index.html in browser 
+
+## applying webpack modules and global styles 
+https://github.com/css-modules/css-modules
+
